@@ -9,6 +9,8 @@ import net.md_5.bungee.api.plugin.Plugin;
  */
 public class BungeeSystem extends Plugin {
 
+    public String prefix = "§6REVENTIC";
+
     public void onEnable() {
         ProxyServer.getInstance().getConsole().sendMessage(new TextComponent("§8Active"));
     }
